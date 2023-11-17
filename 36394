@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+    *{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #5433FF;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 30px auto;
+
+
+}
+
+.box h3 {
+    padding: 5px 10px;
+    border-left: 5px solid rgb(16, 233, 110);
+    background-color: rgba(16, 233, 110, 0.2);
+    /* background-image: linear-gradient(to right, rgb(16, 233, 110), rgb(165, 254, 203)); */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin:auto 10px;
+}
+
+form div {
+    background-color: #20BDFF;
+    border: 1px solid #CCC;
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+    display: flex;
+    margin-bottom: 2px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.1);
+       
+}
+form label{
+    width: 100%;
+}
+.score{
+    text-align: center;
+}
+button{
+    background-color: #0090ce;
+    color: white;
+    display: block;
+    margin: -10px auto;
+    width: fit-content;
+    padding: 10px;
+}
+.w{
+    color:#4caf50;
+}
+.l{
+    color:#f44336;
+}
+a.more{
+    color: #0090ce;
+    text-transform: capitalize;
+}
+    </style>
+    </head>
+<body>
+
+<h1>
+Endocrine Quiz
+</h1>
+<div class="box">
+
+<h3>
+
+<span>
+1/ 
+</span>The most common cause of death in adult patient with diabetes (DM) is :-
+</h3>
+<form class="f1">
+
+<div class="a">
+
+<input type="radio" name="r1" class="r1" id="a1"/>
+
+<label for="a1">
+A/ Cerebral Edema
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r1" class="r1" id="b1"/>
+
+<label for="b1">
+B/ DKA
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r1" class="r1" id="c1"/>
+
+<label for="c1">
+C/ MI
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r1" class="r1" id="d1"/>
+
+<label for="d1">
+D/ Sepsis
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+2/ 
+</span>Regarding ParaThyroid Hormone (PTH) which is correct :-
+</h3>
+<form class="f2">
+
+<div class="a">
+
+<input type="radio" name="r2" class="r2" id="a2"/>
+
+<label for="a2">
+A/ increase Ca => increase PTH
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r2" class="r2" id="b2"/>
+
+<label for="b2">
+B/ decrease PO4 => icrease PTH
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r2" class="r2" id="c2"/>
+
+<label for="c2">
+C/ decrease Mg => increase PTH
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r2" class="r2" id="d2"/>
+
+<label for="d2">
+D/ severse decrease Mg => increase PTH
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+3/ 
+</span>Which hormone is released from a-cell :-
+</h3>
+<form class="f3">
+
+<div class="a">
+
+<input type="radio" name="r3" class="r3" id="a3"/>
+
+<label for="a3">
+A/ Glucagon
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r3" class="r3" id="b3"/>
+
+<label for="b3">
+B/ Insulin
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r3" class="r3" id="c3"/>
+
+<label for="c3">
+C/ Somatostatin
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r3" class="r3" id="d3"/>
+
+<label for="d3">
+D/ None of the above
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+4/ 
+</span>Which is the most potent anabolic hormone :-
+</h3>
+<form class="f4">
+
+<div class="a">
+
+<input type="radio" name="r4" class="r4" id="a4"/>
+
+<label for="a4">
+A/ Glucagon
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r4" class="r4" id="b4"/>
+
+<label for="b4">
+B/ Insulin
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r4" class="r4" id="c4"/>
+
+<label for="c4">
+C/ Somatostatin
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r4" class="r4" id="d4"/>
+
+<label for="d4">
+D/ None of the above
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+5/ 
+</span>Insulin Hormone Inhibit :-
+</h3>
+<form class="f5">
+
+<div class="a">
+
+<input type="radio" name="r5" class="r5" id="a5"/>
+
+<label for="a5">
+A/ Glycogenesis
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r5" class="r5" id="b5"/>
+
+<label for="b5">
+B/ Na retention
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r5" class="r5" id="c5"/>
+
+<label for="c5">
+C/ Lipolysis
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r5" class="r5" id="d5"/>
+
+<label for="d5">
+D/ All the above
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+6/ 
+</span>Superior thyroid artery is abranch of which artery :-
+</h3>
+<form class="f6">
+
+<div class="a">
+
+<input type="radio" name="r6" class="r6" id="a6"/>
+
+<label for="a6">
+A/ Internal carotid
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r6" class="r6" id="b6"/>
+
+<label for="b6">
+B/ External carotid
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r6" class="r6" id="c6"/>
+
+<label for="c6">
+C/ Internal iliac
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r6" class="r6" id="d6"/>
+
+<label for="d6">
+D/ External iliac
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+7/ 
+</span>Increase cortisol level can cause :-
+</h3>
+<form class="f7">
+
+<div class="a">
+
+<input type="radio" name="r7" class="r7" id="a7"/>
+
+<label for="a7">
+A/ hypoglycemia
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r7" class="r7" id="b7"/>
+
+<label for="b7">
+B/ neurtopenia
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r7" class="r7" id="c7"/>
+
+<label for="c7">
+C/ hypotension
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r7" class="r7" id="d7"/>
+
+<label for="d7">
+D/ hyperlipidemia
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+8/ 
+</span>which of the following is not a steroid hormone :-
+</h3>
+<form class="f8">
+
+<div class="a">
+
+<input type="radio" name="r8" class="r8" id="a8"/>
+
+<label for="a8">
+A/ Aldosterone
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r8" class="r8" id="b8"/>
+
+<label for="b8">
+B/ Thyroxine
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r8" class="r8" id="c8"/>
+
+<label for="c8">
+C/ Cortisol
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r8" class="r8" id="d8"/>
+
+<label for="d8">
+D/ Progesterone
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+9/ 
+</span>what is the inner most layer in Adrenal cortex :-
+</h3>
+<form class="f9">
+
+<div class="a">
+
+<input type="radio" name="r9" class="r9" id="a9"/>
+
+<label for="a9">
+A/ Zona Glomerulosa
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r9" class="r9" id="b9"/>
+
+<label for="b9">
+B/ Zona Reticularis
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r9" class="r9" id="c9"/>
+
+<label for="c9">
+C/ Zona Fasciculata
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r9" class="r9" id="d9"/>
+
+<label for="d9">
+D/ None of the above
+</label>
+</div>
+</form>
+</div>
+<div class="box">
+
+<h3>
+
+<span>
+10/ 
+</span>The posterior pitutary is derived from :-
+</h3>
+<form class="f10">
+
+<div class="a">
+
+<input type="radio" name="r10" class="r10" id="a10"/>
+
+<label for="a10">
+A/ neuroectoderm
+</label>
+</div>
+<div class="b">
+
+<input type="radio" name="r10" class="r10" id="b10"/>
+
+<label for="b10">
+B/ neuroendoderm
+</label>
+</div>
+<div class="c">
+
+<input type="radio" name="r10" class="r10" id="c10"/>
+
+<label for="c10">
+C/ neuroemesoderm
+</label>
+</div>
+<div class="d">
+
+<input type="radio" name="r10" class="r10" id="d10"/>
+
+<label for="d10">
+D/ None of the above
+</label>
+</div>
+</form>
+</div>
+<button>
+Check it
+</button>
+<h2 class="score">
+
+</h2>
+<a href="https://www.facebook.com/profile.php?id=61551005106762" class="more">
+for more quiz visit our page
+</a>
+<p>
+&copy; Musab Shifu - 2023
+</p>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script>
+let ans = 'ccabcbdbba';
+                          ans = ans.split('')
+        $('button').click(
+            function () {
+                let i = 1;
+                let c = 0;
+                let r = document.querySelectorAll(':checked');
+                if(r.length == ans.length){
+                    ans.forEach(an => {
+                        if (r[i - 1].id[0] == an) {
+                            $(`.f${i} .${an[0]}`).css('background', '#4caf50')
+                            c += 1
+                        }
+                        else {
+                            $(`.f${i} .${an[0]}`).css('background', '#4caf50')
+                            $(`.f${i} .${r[i - 1].id[0]}`).css('background', '#f44336')
+                        }
+                        i++;
+    
+                    });
+                    $(this).css('display', 'none')
+                    if (c>=(ans.length/2)){
+                    $('.score').append(`Your Score is <span class="w">${c}</span> from ${ans.length}`)
+                    }
+                    else{
+                    $('.score').append(`Your Score is <span class="l">${c}</span> from ${ans.length}`)
+                    }
+                }
+                else{
+                    alert('You Don\'t Answer All The Questions')
+                }
+            }
+        );
+
+               
+</script>
+</body>
+<body>
